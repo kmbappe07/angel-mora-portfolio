@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "create-vite": "^7.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
