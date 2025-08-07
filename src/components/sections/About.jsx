@@ -3,17 +3,21 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const frontendSkills = [
+        "HTML",
+        "JavaScript",
+        "CSS",
         "React", 
-        "Vue", 
-        "TypeScript", 
-        "TailwindCSS", 
-        "Svelte",
+        "Vite",  
+        "TailwindCSS",
     ];
     const backendSkills = [
-        "Python", 
-        "Django", 
-        "C", 
-        "Java", 
+        "Python",
+        "Java",
+        "C",
+        "Django",
+        "REST API",
+        "Daphne",
+        "IIS Manager",
     ];
 
     return(
@@ -29,7 +33,8 @@ export const About = () => {
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-300 mb-6">
-                        I am 21 years old. sadasdasdasdasdasdas
+                        I am current student at Marquette University studying Computer Science. 
+                        I believe in lifelong learning, and strive to learn something new every day.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -83,7 +88,15 @@ export const About = () => {
                                     <div>
                                         <h4 className="font-semibold">Intern at Johnson Controls (2025-Present)</h4>
                                         <p>
-                                            Developed Metasys UI
+                                            <li>
+                                                Designed a lightweight software tool for tracking lab machines, improving data collection and monitoring capabilities
+                                            </li>
+                                            <li>   
+                                                Created automation scripts to automate internal processes
+                                            </li>
+                                            <li>
+                                                Developed an AI-powered search assistant to enhance information retrieval efficiency
+                                            </li>
                                         </p>
                                     </div>
                                 </div>
